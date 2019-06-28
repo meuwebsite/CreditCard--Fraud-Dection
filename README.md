@@ -50,40 +50,37 @@ Import the data set and visualize the data
 #  
 ![fb](images/fd1.png)
 
-* Visualizing data points
+* Describe the data
 #  
 ![fb](images/fd2.png)
 
-* Visualizing data points
+Creating 2 variables
+* negative, no fraud
+* positive, fraud
 #  
 ![fb](images/fd3.png)
 
-* Histogram (bins=5)
+Visualize the Count of Fraud and NoFraud
+* Find out that the data is very unbalanced
 #  
 ![fb](images/fd4.png)
 
-Transforming the data
-* Drop collumns
-* Apply Dumies at Variation Collumn
-* Add the encoded column again
-* Concatenate them together
 
+Heat Map
 #  
 ![fb](images/fd5.png)
-Training Train and Test
 
+Kernel density estimation (KDE) is a non-parametric way to estimate the probability density function of a random variable.
 #  
-
 ![fb](images/fd6.png)
-Evaluating the model
+
+* Re-shaping the values 
+* Evaluating the Model
 #  
 ![fb](images/fd7.png)
 
-Improve the model
-* Droping the variations and add review length as a feature
-* Apply randomforest_classifier
-#  
-![fb](images/fd8.png)
 
 Final Model represented by Confunsion Matrix
+#  
+![fb](images/fd8.png)
 

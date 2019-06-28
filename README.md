@@ -14,19 +14,23 @@ Datasets contains transactions made by credit cards in September 2013 by europea
 
 The data contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data.
 
-Input Features: V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning.
+* Input Features: V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. 
+* Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. 
+* The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning.
+* Output: 1 in case of fraud and 0 otherwise.
 
-Output: 1 in case of fraud and 0 otherwise.
-
-Link to the dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/home
+* Link to the dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/home
 
 # Goals
 
-* Discover insights into consumer reviews and perfrom sentiment analysis on the data.
+* Import the data set
+* Transform the data
 * Split the data in Train and Test
 * Train and Test the model in the data set
-* Visualize data
-* Get best accuracy 
+* Visualize data points
+* Get best accuracy
+* Improve model as needed
+* Discover if there is a potentialy risk of fraud
 
 
 
@@ -82,5 +86,4 @@ Improve the model
 ![fb](images/fd8.png)
 
 Final Model represented by Confunsion Matrix
-#  
-![fb](images/fd9.png)
+
